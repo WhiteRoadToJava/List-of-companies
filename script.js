@@ -5,13 +5,25 @@ const inputPhone = document.getElementById("phone");
 const inputWebsite = document.getElementById("website");
 const inputDate = document.getElementById("date");
 const table = document.getElementById("table-including");
+
+const editBtn = document.getElementById("edit-company");
+const deleteBtn = document.getElementById("delete-company");
+const submitBtn = document.getElementById("submit");
+
+const form = document.getElementById("form");
+
 let row = table.closest("tr");
 let rowToDelete = 0;
 let rowToEdit = 0;
 let rowIndex = 0;
 
 
-
+let cancelBtn = document.getElementById("cancel");
+cancelBtn.addEventListener("click", () => {
+        form.style.display = "none";
+        editBtn.style.display = "flex";
+        deleteBtn.style.display = "flex";
+});
 
 
 
@@ -32,11 +44,9 @@ function addCompany() {
                 <td>${conpanies.inputDate.value}</td>
         `;
                 table.appendChild(tr);
-
-
                 saveData();
+                form.style.display = "none";
         }
-
 }
 
 table.addEventListener("click", (e) => {
@@ -45,6 +55,8 @@ table.addEventListener("click", (e) => {
                 rowToupdate = e.target.closest("tr")
                 rowIndex = e.target.closest("tr")
                 showDataRow(rowIndex);
+                form.style.display = "flex";
+                submitBtn.style.display = "none";
         }
 });
 
@@ -61,9 +73,9 @@ table.addEventListener("mouseout", (e) => {
 
 
 function deleteCompany() {
-        if (confirm("Are you sure you want to delete this company?")
-        ) {
+        if (confirm("Are you sure you want to delete this company?")) {
                 rowToDelete.remove();
+                form.style.display = "none";
                 saveData();
                 loadData();
         }
@@ -90,6 +102,7 @@ function editCompany() {
                 saveData();
                 loadData();
                 alert("Company edited successfully");
+                form.style.display = "none";
         }
         else {
                 loadData();
@@ -104,7 +117,20 @@ function saveData() {
 function loadData() {
         table.innerHTML = localStorage.getItem("data")
 }
+
+
 loadData();
+
+
+let addCompanyBtn = document.getElementById("add-company");
+addCompanyBtn.addEventListener("click", () => { 
+        submitBtn.style.display = "flex";
+        editBtn.style.display = "none";
+        deleteBtn.style.display = "none";
+        form.style.display = "flex";
+});
+
+
 
 
 
