@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>List Of Companies</title>
+</head>
+<body><div class="container">
+
+        <div class="add-form">
+         <div class="form">
+                <h1 class="title">List Of Companies</h1>
+                <div class="row">
+                        <label for="">Company name</label>
+                        <input id="company-name" type="text" title="company name">
+                </div>
+                <div class="row">
+                        <label for="contact person">Contact person</label>
+                        <input type="text" title="contact person" id="contact-person">
+                </div>
+                <div class="row">
+                        <label for="email">Email</label>
+                        <input type="text" title="email" id="email">
+                </div>
+                <div class="row">
+                        <label for="phone">Phone</label>
+                        <input type="text" title="phone" id="phone">
+                </div>
+                <div class="row">
+                        <label for="website">Website</label>
+                        <input type="text" title="website" id="website">
+                </div>
+                <div class="row">
+                        <label for="date">Date</label>
+                        <input type="date" title="date" id="date">
+                </div>
+                <div class="button-field">
+                        <button type="submit" id="submit" class="submit-btn" onclick="addCompany()">Submit</button>
+                        <button type="button" class="submit-btn" id="edit-company" onclick="editCompany()">Edit</button>
+                        <button type="button" class="submit-btn" onclick="deleteCompany()">Delete</button>
+                        <button type="button" class="submit-btn" onclick="saveTableAsCsv('table-including', 'companies.csv')">Save Excel File</button>
+                </div>
+                </div>
+        </div>
+        
+       
+
+        <div class="list">
+                <table id="table-container">
+                        <thead>
+                                <tr>
+                                        <th>Company name</th>
+                                        <th>Contact person</th>
+                                        <th>Email</th>
+                                        <th>Phone</th>
+                                        <th>Website</th>
+                                        <th>Date</th>
+                        </thead>
+                        <tfoot id="table-including">
+                        </tfoot>
+                </table>
+        </div>
+        </div>
+
+
+        
+
+
+        <script src="script.js"></script>
+</body>
+</html>
