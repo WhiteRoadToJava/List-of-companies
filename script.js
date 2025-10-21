@@ -128,6 +128,13 @@ addCompanyBtn.addEventListener("click", () => {
         editBtn.style.display = "none";
         deleteBtn.style.display = "none";
         form.style.display = "flex";
+
+        inputName.value = "";
+        inputPerson.value = "";
+        inputEmail.value = "";
+        inputPhone.value = "";
+        inputWebsite.value = "";
+        inputDate.value = "";
 });
 
 
