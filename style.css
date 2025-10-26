@@ -134,6 +134,18 @@ td{
         padding: 10px;
 }
 
+.file-buttons{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 20px;
+        margin-top: 20px;
+}
+.file-buttons button{
+        margin-left: 20px;
+}
+
 
 
 

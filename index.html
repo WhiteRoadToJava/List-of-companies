@@ -11,9 +11,6 @@
 <body>
         <div class="container">
 
-
-
-
                 <div class="list">
                         <table id="table-container">
                                 <thead>
@@ -29,10 +26,13 @@
                                 </tfoot>
                         </table>
 
-                        <div class="button-field">
+                        <div class="file-buttons">
                                 <button id="add-company" class="submit-btn">Add Company</button>
                                 <button type="button" class="submit-btn"
-                                        onclick="saveTableAsCsv('table-including', 'companies.csv')">Save Excel File</button>
+                                        onclick="saveTableAsCsv('table-including', 'companies.csv')">Save Excel File
+                                </button>
+                                <button id="open-btn" class="submit-btn" onclick="uploadFile()">Open List Of Companies</button>
+                                <button onclick="saveAs()" class="submit-btn" id="save-btn">Save List</button>
                         </div>
                 </div>
         </div>

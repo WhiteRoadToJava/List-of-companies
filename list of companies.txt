@@ -1,0 +1,113 @@
+<tr style="background-color: white;">
+                <td>Fuluria Peuple</td>
+                <td>-</td>
+                <td>ebba.stromberg@futuriapeople.se</td>
+                <td>0762638940</td>
+                <td>-</td>
+                <td>2025-02-19</td>
+        </tr><tr style="background-color: white;">
+                <td>kambi sweden ab</td>
+                <td>-</td>
+                <td>Job Detail - Kambi</td>
+                <td>-</td>
+                <td>-</td>
+                <td>2025-10-16</td>
+        </tr><tr style="background-color: white;">
+                <td>Luleap</td>
+                <td>-</td>
+                <td>careers@netonyx.se</td>
+                <td>-</td>
+                <td>-</td>
+                <td>2025-10-24</td>
+        </tr><tr style="background-color: white;">
+                <td>SEGULA Technologies AB</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>2025-10-21</td>
+        </tr><tr style="background-color: white;">
+                <td>Dal Aviation</td>
+                <td>-</td>
+                <td>contact@dalaviation.se</td>
+                <td>-</td>
+                <td>-</td>
+                <td>2025-10-21</td>
+        </tr><tr style="background-color: white;">
+                <td>Meet a Groups kund</td>
+                <td>-Meet a Groups kund</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>2025-10-21</td>
+        </tr><tr style="background-color: white;">
+                <td>Envoi AB</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td>2025-10-21</td>
+        </tr><tr style="background-color: white;">
+                <td>Baronit AB</td>
+                <td>-</td>
+                <td>info@baronit.se</td>
+                <td>-</td>
+                <td>-</td>
+                <td>2025-10-21</td>
+        </tr><tr style="background-color: white;">
+                <td>RO-Gruppen</td>
+                <td>Enekke Wadell</td>
+                <td>info@ro-gruppen.se</td>
+                <td>031-79 70 700</td>
+                <td>-</td>
+                <td>2025-10-21</td>
+        </tr><tr style="background-color: white;">
+                <td>Atea</td>
+                <td>cornella Holmbäck</td>
+                <td>cornelia.holmback@nexergroup.com</td>
+                <td>0761199518</td>
+                <td>-</td>
+                <td>2025-10-21</td>
+        </tr><tr style="background-color: white;">
+                <td>Nexer Group</td>
+                <td>Petra Sivefäldt</td>
+                <td>petra.sivefaldt@nexergroup.com</td>
+                <td>0730-42 83 82</td>
+                <td>-</td>
+                <td>2025-10-22</td>
+        </tr><tr style="background-color: white;">
+                <td>Tavana IT</td>
+                <td>Babak Sahraee</td>
+                <td>babak.sahraee@tavana.se</td>
+                <td>-</td>
+                <td>-</td>
+                <td>2025-10-22</td>
+        </tr><tr style="background-color: white;">
+                <td>Integro Consulting AB</td>
+                <td>-</td>
+                <td>http://www.integroconsulting.se/</td>
+                <td>-</td>
+                <td>http://www.integroconsulting.se/</td>
+                <td>2025-10-22</td>
+        </tr><tr style="background-color: white;">
+                <td>PRESIS KONSULT AB</td>
+                <td>--</td>
+                <td>recruitment@presiskonsult.se</td>
+                <td>-</td>
+                <td>http://www.presiskonsult.se/</td>
+                <td>2025-10-22</td>
+        </tr><tr style="background-color: lightgray;">
+                <td>java 25</td>
+                <td>aswwdd</td>
+                <td>-11w</td>
+                <td>-4332345</td>
+                <td>-</td>
+                <td></td>
+        </tr><tr>
+                <td>java</td>
+                <td>---</td>
+                <td>-</td>
+                <td>-</td>
+                <td>-</td>
+                <td></td>
+        </tr>
